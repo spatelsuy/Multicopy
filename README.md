@@ -16,3 +16,9 @@ That’s the idea behind MultiCopy - a lightweight clipboard assistant built usi
 MultiCopy is my personal solution to solve a problem. It is a focused utility that helps me gather multiple snippets and paste them exactly once, and in one go, cleanly and efficiently.
 
 If you’ve ever wished your clipboard could do a little more, you might enjoy trying this. Just download the executable along with the PNG and ICO files. It has a simple GUI and self-guided help to use it. The code is available on GitHub if you want to extend it for your needs.
+
+
+#### create the executable using the command
+```
+pyinstaller --onefile --noconsole --icon=multicopy.ico multicopyv1.py
+```
